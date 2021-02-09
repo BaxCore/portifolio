@@ -49,21 +49,21 @@ h1 {text-align:center;
 <form>
     <div class="form-group ">
         <label for="name">First Name</label><br/>
-        <input type="text" class="form-control" placeholder="Vicent" id="inputEmail4"><br/>
+        <input type="text" class="form-control" placeholder="Vicent" id="inputEmail4" readonly><br/>
     </div>
        <div class="form-group ">
         <label for="inputPassword4">Last Name</label> <br/>
-        <input type="text" class="form-control" id="inputAddress" placeholder="Balitema"><br/>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Balitema" readonly><br/>
       </div>
       
   <div class="form-group ">
     <label for="inputAddress">Email</label><br/>
-    <input type="text" class="form-control" id="inputAddress" placeholder="vicent@gmail.com"><br/>
+    <input type="text" class="form-control" id="inputAddress" placeholder="bvicxbax@gmail.com" readonly><br/>
   </div>
 
  <div class="form-group ">
     <label for="inputAddress2">Phone Number</label><br/>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="070000000"><br/>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="0754923852" readonly><br/>
   </div>
 
   <div class="form-group col-md-4">
@@ -74,13 +74,6 @@ h1 {text-align:center;
     Male
   </label>
 
-&nbsp
-&nbsp
-&nbsp
-  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-  <label class="form-check-label" for="exampleRadios2">
-    Female
-  </label>
 </div>
 </div>
 
@@ -94,15 +87,18 @@ h1 {text-align:center;
         <option>Networking</option>
       </select>
     </div>
-  
-
+  <!--if (i=1){
+    t.set("mann i sf")
+  } else if(i=2){
+    t.set(man is bad);
+  }
+-->
   <div class="form-group ">
-    <label for="exampleFormControlTextarea1">Instractions</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <label for="readonly">Details of the selected Project type</label>
+    <textarea class="form-control" id="projdetails" rows="3"></textarea>
     </div>
   
-    <button type="cancel" class="btn btn-secondary">Cancel</button>
-  <button type="submit" class="btn btn-primary">Send</button>
+  <button type="submit" class="btn btn-primary">Save</button>
   </div>
 </form>
 </div>
